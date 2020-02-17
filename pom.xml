@@ -54,7 +54,7 @@ src/main/java/com/test/Project.java
       				<artifactId>maven-jar-plugin</artifactId>
       				<version>2.3.1</version>
       				<configuration>
-        				<outputDirectory>/root/artifact</outputDirectory>
+        				<outputDirectory>/home/azaitsau/artifact</outputDirectory>
       				</configuration>
 			 </plugin>
                      <plugin>
