@@ -13,7 +13,7 @@ src/main/java/com/test/Project.java
   <groupId>srv.jenfins</groupId>
   <artifactId>projectformvn</artifactId>
   <version>0.1-SNAPSHOT</version>
-  <packaging>zip</packaging>
+  <packaging>jar</packaging>
   <name>maven-simple</name>
 
                 <dependencies>
