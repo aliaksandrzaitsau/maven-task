@@ -1,7 +1,7 @@
 package com.test;
 
 //dependency on Apache commons-collections
-import org.apache.commons.collections4.*;
+import org.apache.commons.collections.*;
 
 class Project {
 
