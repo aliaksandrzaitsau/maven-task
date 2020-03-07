@@ -7,7 +7,7 @@ import org.junit.Ignore;
 public class UnitTest {
    
    @Test
-   public void test(){
+   public void test() {
      Project.test();
    }
 }
