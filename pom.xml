@@ -15,7 +15,30 @@ src/main/java/com/test/Project.java
   <version>0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>maven-simple</name>
-
+  <properties>
+      <maven.compiler.source>1.6</maven.compiler.source>
+      <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
+  <build>
+    <sourceDirectory>src/main/java/com/test</sourceDirectory>
+    <plugins>
+      <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-jar-plugin</artifactId>
+      <version>3.0.2</version>
+      <configuration>
+        <archive>
+          <manifest>
+            <addClasspath>true</addClasspath>
+            <classpathPrefix>lib/</classpathPrefix>
+            <mainClass>com.test.Project</mainClass>
+          </manifest>
+        </archive>
+      </configuration>
+      </plugin>
+    </plugins>
+  </build>	
+   	
                 <dependencies>
                         <dependency>
                             <groupId>junit</groupId>
